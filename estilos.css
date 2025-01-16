@@ -1,0 +1,31 @@
+/* 1º Aplicar un tipo de letra al documento con google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  2º Estilo para el body */
+body {
+    margin: 0;
+    padding: 0 20%;
+}
+
+/* 3º  Estilo para elementos h1 */
+h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+}
+
+/* 4º Estilo para elementos selector */
+.selector {
+    color: lightcyan;
+}
+
+/* 5º Estilo para elementos selectors */
+.selectors {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+
