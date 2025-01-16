@@ -1,7 +1,7 @@
 /* 1º Aplicar un tipo de letra al documento con google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Marck+Script&display=swap');
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Marck Script', cursive;
 }
 
 /*  2º Estilo para el body */
@@ -25,6 +25,49 @@ h1 {
 /* 5º Estilo para elementos selectors */
 .selectors {
     padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+
+/* 6º Estilo para elementos universal */
+#universal {
+    color: lightgoldenrodyellow;
+}
+
+/* 7º Estilo combinado para h2 con clase "selector" y h2 con id "universal" */
+h2.selector, h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+/* 8º Estilo para  span */
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+/* 9º Estilo para elementos a que son hijos directos de li */
+li > a {
+    text-decoration: none;
+}
+
+/* 10º Estilo para elementos h3 */
+h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+/* 11º Estilo para divs descendientes de un elemento con id "gallery" */
+#gallery div {
+    width: 100%;
+}
+
+/* 12º Estilo imagenes */
+img {
+    width: 100%;
     border: solid darkcyan 1px;
     border-radius: 5px;
 }
